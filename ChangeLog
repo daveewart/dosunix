@@ -1,0 +1,306 @@
+2005-09-09 13:50  daveewart
+
+	* htdocs/dosunix_1.0.14-1.davee-sarge.1_amd64.deb (1.1):
+
+	Sarge/amd64 deb for version 1.0.14
+
+2005-09-09 13:49  daveewart
+
+	* htdocs/: dosunix-1.0.14.tar.gz (1.1), dosunix-1.0.14.tar.gz.sig
+	(1.1):
+
+	New source tarball and signature
+
+2005-09-09 13:14  daveewart
+
+	* NEWS (1.4), VERSION (1.10), const.h (1.13):
+
+	Updated code for version 1.0.14 release
+
+2005-09-09 13:04  daveewart
+
+	* chktxt.c (1.9), common.c (1.12), dosunix.c (1.12), unixdos.c
+	(1.12):
+
+	Changes required to permit clean compile on gcc 4.0
+
+2002-04-08 21:51  daveewart
+
+	* htdocs/: dosunix-1.0.13-rh7x-1.i386.rpm (1.1),
+	dosunix-1.0.13.tar.gz (1.1), dosunix-1.0.13.tar.gz.sig (1.1):
+
+	Distribution and RH7 RPM for version 1.0.13
+
+2002-04-08 16:24  daveewart
+
+	* htdocs/: index.html (1.5), upload.sh (1.3):
+
+	Prepare web page for next version release
+
+2002-04-08 16:18  daveewart
+
+	* chktxt.c (1.8), common.c (1.11), dosunix.c (1.11), unixdos.c
+	(1.11):
+
+	Update copyright date
+
+2002-04-08 16:11  daveewart
+
+	* htdocs/dosunix-1.0.13-rh6x-1.i386.rpm (1.1):
+
+	RH6.x RPM for version 1.0.13
+
+2002-04-08 16:06  daveewart
+
+	* .cvsignore (1.2), VERSION (1.9), chktxt.c (1.7), common.c (1.10),
+	const.h (1.12), dosunix.c (1.10), dosunix.spec (1.7), unixdos.c
+	(1.10):
+
+	Show input/output filenames when reporting errors
+
+2001-11-15 20:01  daveewart
+
+	* htdocs/: dosunix-1.0.12.tar.gz (1.1), dosunix-1.0.12.tar.gz.sig
+	(1.1):
+
+	Source distribution for version 1.0.12
+
+2001-11-15 19:59  daveewart
+
+	* htdocs/: dosunix-1.0.12-rh6x-1.i386.rpm (1.1),
+	dosunix-1.0.12-rh7x-1.i386.rpm (1.1), index.html (1.4), upload.sh
+	(1.2):
+
+	Add RPM binaries
+
+2001-11-13 19:38  daveewart
+
+	* htdocs/upload.sh (1.1):
+
+	Script for uploading web page
+
+2001-11-12 16:49  daveewart
+
+	* htdocs/index.html (1.3):
+
+	Minor wording change
+
+2001-11-10 17:32  daveewart
+
+	* htdocs/index.html (1.2):
+
+	Add links to source download
+
+2001-11-10 09:21  daveewart
+
+	* htdocs/index.html (1.1):
+
+	First draft of web page
+
+2001-11-09 11:36  davee
+
+	* NEWS (1.3), dosunix.spec (1.6):
+
+	Notes for first public release
+
+2001-11-05 16:54  davee
+
+	* common.c (1.9):
+
+	Add note about whole project
+
+2001-11-05 16:52  davee
+
+	* VERSION (1.8), chktxt.c (1.6), common.c (1.8), const.h (1.11),
+	dosunix.c (1.9), unixdos.c (1.9):
+
+	Run code through 'indent' and add GPL info to each source file
+
+2001-08-14 12:07  davee
+
+	* AUTHORS (1.5), COPYING (1.2), GPL (1.3), INSTALL (1.5), LICENSE
+	(1.3), Makefile.am (1.3), NEWS (1.2), README (1.3), VERSION (1.7),
+	autogen.sh (1.5), chktxt.c (1.5), common.c (1.7), const.h (1.10),
+	dosunix.c (1.8), dosunix.spec (1.5), unixdos.c (1.8):
+
+	Numerous cosmetic and distribution changes, for first public
+	release
+
+2001-08-07 13:52  davee
+
+	* dosunix.spec (1.4):
+
+	Update version for SPEC file
+
+2001-08-02 16:27  davee
+
+	* chktxt.c (1.4):
+
+	Add more verbose usage info and send unidentified files to 'file'
+
+2001-08-02 16:26  davee
+
+	* dosunix.c (1.7), unixdos.c (1.7), VERSION (1.6), const.h (1.9):
+
+	Add more verbose usage info
+
+2001-07-30 10:16  davee
+
+	* chktxt.c (1.3), common.c (1.6), dosunix.c (1.6), unixdos.c (1.6):
+
+	Beautify using INDENT
+
+2001-07-17 09:36  davee
+
+	* chktxt.c (1.2):
+
+	Make output more consistent with DosUnix and UnixDos
+
+2001-07-17 09:31  davee
+
+	* Makefile.am (1.2), VERSION (1.5), chktxt.c (1.1), common.c (1.5),
+	configure.in (1.3), const.h (1.8), dosunix.c (1.5), dosunix.spec
+	(1.3), unixdos.c (1.5):
+
+	Add ChkTxt command to identify DOS/Unix text files
+
+2001-06-29 15:30  davee
+
+	* dosunix.spec (1.2):
+
+	Update version for RPM
+
+2001-05-25 09:57  davee
+
+	* .cvsignore (1.1), VERSION (1.4), autogen.sh (1.4), common.c
+	(1.4), const.h (1.7), dosunix.c (1.4), unixdos.c (1.4):
+
+	Add version number SUMMARY output, lots of code tidying/indenting
+
+2001-05-23 11:20  davee
+
+	* AUTHORS (1.4):
+
+	More details
+
+2001-05-23 10:36  anonymous
+
+	* AUTHORS (1.3):
+
+	More details
+
+2001-05-22 16:39  davee
+
+	* const.h (1.6):
+
+	Committed using WinCVS - testing
+
+2001-05-22 16:10  davee
+
+	* AUTHORS (1.2):
+
+	Added main author
+
+2001-04-12 16:16  davee
+
+	* const.h (1.5):
+
+	Update revision date
+
+2001-04-12 16:12  davee
+
+	* configure.in (1.2):
+
+	Make default install to /usr
+
+2001-04-12 15:58  davee
+
+	* dosunix-1.0.6-1.spec (1.2), dosunix.spec (1.1):
+
+	Rename spec file
+
+2001-04-12 15:54  davee
+
+	* VERSION (1.3), dosunix.c (1.3), unixdos.c (1.3):
+
+	Display usage info on errors
+
+2001-04-12 15:50  davee
+
+	* autogen.sh (1.3):
+
+	Generate changelog
+
+2001-04-12 15:49  davee
+
+	* autogen.sh (1.2):
+
+	Change permissions
+
+2001-04-12 15:48  davee
+
+	* autogen.sh (1.1):
+
+	To build sources from fresh CVS checkout
+
+2001-04-12 15:47  davee
+
+	* AUTHORS (1.1), COPYING (1.1), INSTALL (1.4), NEWS (1.1):
+
+	For automake's sake
+
+2001-04-11 17:16  davee
+
+	* dosunix-1.0.6-1.spec (1.1):
+
+	Add RPM spec file
+
+2001-04-04 14:29  davee
+
+	* INSTALL (1.3):
+
+	Use generic INSTALL
+
+2001-04-04 14:28  davee
+
+	* VERSION (1.2), common.c (1.3), const.h (1.4):
+
+	Altered error messages
+
+2001-04-04 14:24  davee
+
+	* Makefile (1.4), Makefile.am (1.1), VERSION (1.1), configure.in
+	(1.1), const.h (1.3):
+
+	Build using automake/autoconf
+
+2000-09-19 16:36  davee
+
+	* Makefile (1.3):
+
+	Update buggy Makefile
+
+2000-09-13 16:46  davee
+
+	* GPL (1.2), INSTALL (1.2), LICENSE (1.2), Makefile (1.2), README
+	(1.2), common.c (1.2), const.h (1.2), dosunix.c (1.2), unixdos.c
+	(1.2):
+
+	Added ID tag
+
+2000-09-13 16:38  davee
+
+	* GPL (1.1.1.1), INSTALL (1.1.1.1), LICENSE (1.1.1.1), Makefile
+	(1.1.1.1), README (1.1.1.1), common.c (1.1.1.1), const.h (1.1.1.1),
+	dosunix.c (1.1.1.1), unixdos.c (1.1.1.1):
+
+	Import
+
+2000-09-13 16:38  davee
+
+	* GPL (1.1), INSTALL (1.1), LICENSE (1.1), Makefile (1.1), README
+	(1.1), common.c (1.1), const.h (1.1), dosunix.c (1.1), unixdos.c
+	(1.1):
+
+	Initial revision
+
