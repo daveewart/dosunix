@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /*
  * 
@@ -30,6 +31,7 @@ extern int NoInput(char *somefile);
 extern int NoOutput(char *somefile);
 extern int PrintSummary(char *progname, long NumChanges);
 extern int BasicInfo(char *progname);
+extern int FullInfo(char *progname);
 extern int UsageInfo(char *command, int style);
 extern int ShowOptions(char *command);
 

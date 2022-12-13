@@ -31,6 +31,7 @@
 extern int NoInput(char *somefile);
 extern int PrintSummary(char *progrname, long NumChanges);
 extern int BasicInfo(char *progname);
+extern int FullInfo(char *progname);
 extern int UsageInfo(char *command, int style);
 extern int ShowOptions(char *command);
 extern int main(int argc, char *argv[])
