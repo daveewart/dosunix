@@ -26,3 +26,6 @@ files.  Note that files given as arguments are assumed to be text files.
 
 ChkTxt is a third program supplied with the DosUnix suite, which is used
 to identify which text format a given file is in.
+
+There are likely easier to use tools to perform the same operation since
+these utilities were written.
