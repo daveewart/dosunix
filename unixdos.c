@@ -5,7 +5,7 @@
 #include <string.h>
 
 /*
- * 
+ *
  * UnixDos  - File converter - changes Unix end-of-lines to DOS
  * end-of-lines
  * Copyright (C)1997-2002 Dave Ewart (davee@sungate.co.uk)
@@ -41,17 +41,21 @@ int main(int argc, char *argv[])
     int c;
     long NumChanges = 0;
 
-    if (argc == 1) {
+    if (argc == 1)
+    {
         c = BasicInfo("UnixDos");
         c = ShowOptions("unixdos");
         exit(0);
     }
-    if (argc == 2) {
-        if ((strcmp(argv[1], "-V")) == 0) {
+    if (argc == 2)
+    {
+        if ((strcmp(argv[1], "-V")) == 0)
+        {
             c = BasicInfo("UnixDos");
             c = FullInfo("UnixDos");
         }
-        else if ((strcmp(argv[1], "-h")) == 0) {
+        else if ((strcmp(argv[1], "-h")) == 0)
+        {
             c = BasicInfo("UnixDos");
             c = UsageInfo("unixdos", 2);
             printf("UnixDos converts files from Unix text ");
@@ -59,33 +63,40 @@ int main(int argc, char *argv[])
             printf("by replacing each newline character with ");
             printf("a carriage return and\nline-feed pair.\n\n");
         }
-        else {
+        else
+        {
             printf("Unknown option: %s\n", argv[1]);
         }
         exit(0);
     }
 
-    if (!(InputFile = fopen(argv[1], "r"))) {
+    if (!(InputFile = fopen(argv[1], "r")))
+    {
         c = NoInput(argv[1]);
         c = UsageInfo("unixdos", 2);
         exit(0);
     };
-    if (!(OutputFile = fopen(argv[2], "w"))) {
+    if (!(OutputFile = fopen(argv[2], "w")))
+    {
         c = NoOutput(argv[2]);
         c = UsageInfo("unixdos", 2);
         exit(0);
     };
-    while (1) {
+    while (1)
+    {
         c = getc(InputFile);
-        if (c == -1) {
+        if (c == -1)
+        {
             break;
         }
-        else if (c == 10) {
+        else if (c == 10)
+        {
             putc(13, OutputFile);
             putc(10, OutputFile);
             NumChanges++;
         }
-        else {
+        else
+        {
             putc(c, OutputFile);
         }
     }

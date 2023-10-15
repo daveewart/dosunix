@@ -5,7 +5,7 @@
 #include "const.h"
 
 /*
- * 
+ *
  * DosUnix - File converter - changes DOS end-of-lines to Unix
  * end-of-lines
  * Copyright (C)1997-2002 Dave Ewart (davee@sungate.co.uk)
@@ -42,7 +42,7 @@ int NoInput(char *somefile)
 
 int NoOutput(char *somefile)
 {
-    printf("ERROR: Cannot open output file: %s\n",somefile);
+    printf("ERROR: Cannot open output file: %s\n", somefile);
     return (0);
 }
 
@@ -58,18 +58,16 @@ int BasicInfo(char *progname)
 {
     printf("%s version %s ", progname, VERSION);
     printf("(C)%s %s (%s)\n", COPYYEAR, AUTHOR, AUTHOREMAIL);
-    printf("%s is part of the DosUnix project.\n",progname);
+    printf("%s is part of the DosUnix project.\n", progname);
     return (0);
 }
 
 int FullInfo(char *progname)
 {
     printf("Last revised %s\n\n", REVDATE);
-    printf
-        ("%s comes with ABSOLUTELY NO WARRANTY.  This is free software\n",
-         progname);
-    printf
-        ("and you are welcome to redistribute it under certain conditions.\n");
+    printf("%s comes with ABSOLUTELY NO WARRANTY.  This is free software\n",
+           progname);
+    printf("and you are welcome to redistribute it under certain conditions.\n");
     printf("Read the file COPYING supplied with this distribution, or\n");
     printf("http://www.gnu.org/licenses/gpl.txt for details.\n\n");
     return (0);
@@ -78,10 +76,12 @@ int FullInfo(char *progname)
 int UsageInfo(char *command, int style)
 {
     printf("Usage:\n");
-    if (style == 1) {
+    if (style == 1)
+    {
         printf("  %s INPUTFILE\n\n", command);
     }
-    else {
+    else
+    {
         printf("  %s INPUTFILE OUTPUTFILE\n\n", command);
     }
     return (0);
