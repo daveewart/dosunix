@@ -27,4 +27,5 @@
 #define AUTHOR "Dave Ewart"
 #define AUTHOREMAIL "davee@sungate.co.uk"
 #define COPYYEAR "1997-2005"
+#define VERSION "1.0.14"
 
